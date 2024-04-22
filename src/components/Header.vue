@@ -41,7 +41,7 @@ const changeText = () => {
 <template>
   <div class="bg-gray-900">
     <h1
-      class="h-[100vh] text-center flex items-center justify-center text-6xl bg-gradient-to-tr from-white to-teal-200 bg-clip-text text-transparent relative font-mono font-extrabold"
+      class="h-[100vh] text-center flex items-center justify-center text-6xl bg-gradient-to-tr from-white to-teal-200 bg-clip-text text-transparent relative font-mono font-extrabold z-20"
     >
       <span @mouseover="changeText">{{ name }}</span
       ><span class="cursor-block"></span>
